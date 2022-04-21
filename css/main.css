@@ -1,0 +1,46 @@
+.richtexteditor{
+	width:70%;
+	min-height:400px;
+	outline:none;
+	padding:0px;
+	border:2px solid orange;
+	border-radius:5px;
+	text-align:left;
+}
+@media screen and (max-width:650px){
+	.richtexteditor{
+		width:100%;
+		min-height:400px;
+	}
+}
+
+.addButton{
+	background-color:orange;
+	color:white;
+	font-size:18px;
+	border:0px;
+	border-radius:20px;
+}
+
+.toolbarDiv{
+	background-color:orange;
+	color:white;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	display:flex;
+	justify-content:flex-end;
+}
+
+.XBTN{
+	background-color:red;
+	color:white;
+	border:0px;
+	border-radius:20px;
+	margin:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.textDiv{
+	padding:10px;
+}
