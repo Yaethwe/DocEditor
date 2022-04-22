@@ -29,6 +29,7 @@
 	border-top-right-radius:5px;
 	display:flex;
 	justify-content:flex-end;
+	cursor:default;
 }
 
 .XBTN{
